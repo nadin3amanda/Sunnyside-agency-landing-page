@@ -2,7 +2,6 @@ body {
   font-family: "Barlow", sans-serif;
   color: #a7abae;
   font-size: 1.125rem;
-  background-color:
 }
 
 * {
@@ -29,7 +28,7 @@ h6 {
 
 header {
   padding: 32px 24px 130px;
-  background: center/cover no-repeat url(../images/desktop/image-header.jpg);
+  background: center/cover no-repeat url(../images/mobile/image-header.jpg);
 }
 
 .menu-wrap {
