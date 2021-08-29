@@ -2,7 +2,6 @@ body {
   font-family: "Barlow", sans-serif;
   color: #a7abae;
   font-size: 1.125rem;
-  
 }
 
 * {
@@ -29,10 +28,7 @@ h6 {
 
 header {
   padding: 32px 24px 130px;
-  background: center/cover no-repeat url("/images/desktop/image-header.jpg");
-  
-  
-  
+  background: center/cover no-repeat url(/images/desktop/image-header.jpg);
 }
 
 .menu-wrap {
@@ -166,7 +162,7 @@ header {
 }
 
 .col-content .link-2:before {
-  border-bottom: 11px wavy #fe7867;
+  border-bottom: 11px #fe7867;
 }
 .col-graph,
 .col-photo {
@@ -188,11 +184,11 @@ header {
 }
 
 .col-graph {
-  background: top/cover no-repeat url("/images/mobile/image-graphic-design.jpg");
+  background: top/cover no-repeat url(../images/mobile/image-graphic-design.jpg);
 }
 
 .col-photo {
-  background: top/cover no-repeat url("/images/mobile/image-photography.jpg");
+  background: top/cover no-repeat url(../images/mobile/image-photography.jpg);
 }
 
 .section-4 {
@@ -305,7 +301,7 @@ footer .footer-remark {
 @media all and (min-width: 800px) {
   header {
     padding: 35px 40px 325px;
-    background: center/cover no-repeat url("/images/desktop/image-header.jpg");
+    background: center/cover no-repeat url(../images/desktop/image-header.jpg);
   }
   .logo-wrap {
     margin-top: 10px;
@@ -396,7 +392,7 @@ footer .footer-remark {
   .section-2::before {
     content: "";
     background: center/cover no-repeat
-      url("/images/desktop/image-transform.jpg");
+      url(../images/desktop/image-transform.jpg);
     width: 50%;
     height: 100%;
     position: absolute;
@@ -411,7 +407,7 @@ footer .footer-remark {
   }
   .section-2::before {
     background: center/cover no-repeat
-      url("/images/desktop/image-stand-out.jpg");
+      url(../images/desktop/image-stand-out.jpg);
     left: 0;
   }
   .col-content {
@@ -441,10 +437,10 @@ footer .footer-remark {
   }
   .col-graph {
     background: top/cover no-repeat
-      url("/images/desktop/image-graphic-design.jpg");
+      url(../images/desktop/image-graphic-design.jpg);
   }
   .col-photo {
-    background: top/cover no-repeat url("/images/desktop/image-photography.jpg");
+    background: top/cover no-repeat url(../images/desktop/image-photography.jpg);
   }
   .section-4 {
     padding: 160px 24px 35px;
