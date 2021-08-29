@@ -28,7 +28,7 @@ h6 {
 
 header {
   padding: 32px 24px 130px;
-  background: center/cover no-repeat url(/images/desktop/image-header.jpg);
+  background: center/cover no-repeat url("https://github.com/nadin3amanda/Sunnyside-agency-landing-page/blob/main/images/desktop/image-header.jpg?raw=true");
 }
 
 .menu-wrap {
